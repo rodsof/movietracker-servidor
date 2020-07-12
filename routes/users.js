@@ -15,6 +15,7 @@ router.post('/',
     userController.createUser
 );
 
+
 router.get('/',
     userController.getUsers
 )
